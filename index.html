@@ -1,0 +1,31 @@
+<head>
+  <title>My GitHub Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+body {
+  background-color: #c70b22;
+}
+<body>
+  <button class="my-button" onclick="showPhrase()">Click Here</button>
+  <p id="phrase" style="display:none">"Hope not ever to see Heaven. I have come to lead you to the
+other shore; into eternal darkness; into fire and into ice"</p>
+  <script>
+    function showPhrase() {
+      document.getElementById("phrase").style.display = "block";
+    }
+  </script>
+</body>
+<style>
+  .my-button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+      margin: 0 auto;
+    cursor: pointer;
+  }
+</style>
